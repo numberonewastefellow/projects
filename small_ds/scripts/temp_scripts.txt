@@ -1,0 +1,6 @@
+python counts_merger_pickle_files.py --num_workers 10 --output_dir /data/counts/words_ds_merged_2/ --input_dir /data/counts/words_ds/ --mode text
+
+
+
+
+ython ngram_ds_extract_counts_year_wise_mood_wise_with_pos.py --num_workers 0 --chunk_size 0 --no_of_file_in_parallel 0 --output_dir /data/moods_ds_output_with_pos/ --input_dir /data/counts/input_for_mood_counts/ --moods_dir /data/proj/n5grm/small_ds/emotion-lexicon-master/eng/
